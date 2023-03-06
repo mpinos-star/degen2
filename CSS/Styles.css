@@ -1,0 +1,216 @@
+/************************************TAG SELECTORS******************************/
+a {
+    text-decoration: none;
+    margin: 10px 15px;
+}
+
+a:hover {
+    color: white;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 300%;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 0;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border-top: 8px dotted rgb(40, 67, 80);
+    border-bottom: 10px;
+    width: 6.5%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+ol {
+    text-rendering:geometricPrecision;
+}
+
+/**********************************************************************CLASS SELECTORS**************************************************************/
+
+.footer-link {
+    padding-top: 0;
+}
+
+.btn {
+    background: #d0e4f2;
+    background-image: -webkit-linear-gradient(top, #d0e4f2, #9bbcd1);
+    background-image: -moz-linear-gradient(top, #d0e4f2, #9bbcd1);
+    background-image: -ms-linear-gradient(top, #d0e4f2, #9bbcd1);
+    background-image: -o-linear-gradient(top, #d0e4f2, #9bbcd1);
+    background-image: linear-gradient(to bottom, #d0e4f2, #9bbcd1);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #820082;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .btn:hover {
+    background: #009bfc;
+    background-image: -webkit-linear-gradient(top, #009bfc, #0099ff);
+    background-image: -moz-linear-gradient(top, #009bfc, #0099ff);
+    background-image: -ms-linear-gradient(top, #009bfc, #0099ff);
+    background-image: -o-linear-gradient(top, #009bfc, #0099ff);
+    background-image: linear-gradient(to bottom, #009bfc, #0099ff);
+    text-decoration: none;
+  }
+
+  .p-footer {
+    font-size: 0.5rem;
+    padding: 15px 0;
+  }
+
+  .stephane {
+        text-decoration: none;
+        margin: 0px 0px;
+  }
+
+  .stephane:hover {
+    color: black;
+  }
+
+/***********************************Containers******************************/
+
+.bottom-container{
+    background-color: #FFC6D3;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.contac-me {
+    width: 10%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.middle-container{
+    background-color: #FFBABA;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 4rem;
+
+}
+
+.top-container {
+    background-color: #D989B5;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+
+.dev {
+    text-decoration: underline;
+}
+
+.profile {
+    margin: 0 auto 0 auto;
+}
+
+.p-contact {
+    width: 30%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 40px;
+}
+
+.p-id {
+    margin: 0 auto 0 auto;
+    width: 30%;
+    margin-bottom: 3rem;
+}
+
+.p-venus {
+    padding-right: 80px;
+}
+
+.skills-row {
+    padding-bottom: 20px;
+    width: 40%;
+    margin: 50px auto 50px auto;
+}
+
+
+/***************************************IMG**********************************/
+/***Clouds*****/
+.cloud1 {
+    position: absolute;
+    right: 340px;
+    top: 150px;
+    border-radius: 18px;
+}
+
+.cloud2 {
+    position: absolute;
+    left: 300px;
+    bottom: 500px;
+}
+
+/****Other****/
+
+.id {
+    height: 120px;
+}
+
+.tulip {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 375px;
+    bottom: 50px; 
+    border-radius: 18px;
+}
+
+.ether-tulip {
+    height: 120px;
+    float: left;
+    padding-right: 5%;
+    border-radius: 18px;
+}
+
+.dragon {
+    height: 40%;
+    width: 27.5%;
+    padding-top: 0;
+    margin: 0 auto 0 auto;
+    visibility: hidden;
+}
+
+.dragon-show {
+    width: 33.33%;
+    position: absolute;
+    bottom: 25px;
+    right: 33.33%;
+}
+
+.venus {
+    height: 120px;
+    float: right;
+    padding-left: 5%;
+    border-radius: 18px;
+}
